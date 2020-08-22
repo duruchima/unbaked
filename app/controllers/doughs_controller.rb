@@ -1,0 +1,2 @@
+class DoughsController < ApplicationController
+end
