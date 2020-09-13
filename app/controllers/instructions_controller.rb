@@ -34,11 +34,11 @@ class InstructionsController < ApplicationController
 
     private
 
-    def bakery_params
+    def instruction_params
         params.require(:instruction).permit(:dough_id, :sweetness)
     end
 
-    def find_bakery
-        @instruction = Bakery.find(params[:id])
+    def find_instruction
+        @instruction = Instruction.find(params[:id])
     end
 end
