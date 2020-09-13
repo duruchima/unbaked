@@ -39,6 +39,6 @@ class InstructionsController < ApplicationController
     end
 
     def find_bakery
-        @instruction = Instruction.find(params[:id])
+        @instruction = Bakery.find(params[:id])
     end
 end
