@@ -3,3 +3,4 @@ class User < ApplicationRecord
     has_many :bakeries, through: :orders
     has_many :addresses
 end
+
