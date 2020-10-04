@@ -20,6 +20,10 @@ Bakery.create(name:"Levain Bakery", address:"167 W 74th St, New York, NY 10023")
 Bakery.create(name:"Two Little Red Hens", address:"1652 2nd Ave, New York, NY 10028")
 
 Order.create(user_id:User.all.sample.id, bakery_id:Bakery.all.sample.id, price:'9.00', dough:)
+Order.create(user_id:User.all.sample.id, bakery_id:Bakery.all.sample.id, price:'5.00', dough:)
+
+Dough.create(name: "Sourdough", rating: "5 Stars",difficulty: "easy", bake_time: "short" )
+Dough.create(name: "Pumpernickel", rating: "4 Stars",difficulty: "medium", bake_time: "medium" )
 
 
 
