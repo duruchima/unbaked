@@ -25,5 +25,6 @@ Order.create(user_id:User.all.sample.id, bakery_id:Bakery.all.sample.id, price:'
 Dough.create(name: "Sourdough", rating: "5 Stars",difficulty: "easy", bake_time: "short" )
 Dough.create(name: "Pumpernickel", rating: "4 Stars",difficulty: "medium", bake_time: "medium" )
 
-
+Instruction.create(dough_id: Dough.all.sample.id, sweetness: "high")
+Instruction.create(dough_id: Dough.all.sample.id, sweetness: "low")
 
